@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = food_order_management
+PROJECT_NAME = food
 
 # Output directory
 BUILD = build
