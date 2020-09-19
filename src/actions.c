@@ -67,8 +67,8 @@ void addrecord(void)
 {
 	system("cls");
 	fp=fopen("record1.txt","a");
-	if(getdata()==1)
-	{
+	
+	
 		fseek(fp,0,SEEK_END);
 		fwrite(&e,sizeof(e),1,fp);
 		fclose(fp);
@@ -80,7 +80,7 @@ void addrecord(void)
 		//else
 	    	//system("cls");
 	    	//addrecord();
-	}
+	
 }
 
 
@@ -145,7 +145,7 @@ void viewrecord(void)
 	}
 
       fclose(fp);
-      returnfunc();
+      //returnfunc();
 }
 
 
