@@ -1,5 +1,5 @@
-#ifndef __foodhead_H__
-	#define __foodhead_H__
+#ifndef __headers_H__
+	#define __headers_H__
 
 void administration();
 void customer();
