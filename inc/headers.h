@@ -19,7 +19,7 @@ int s;
 char findrecord;
 int again;
 int quantity;
-double total=0;
+int total=0;
 int t;
 
 	#endif
