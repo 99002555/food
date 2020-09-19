@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#include "foodhead.h"
+#include <headers.h>
 int vtotal=0,nvtotal=0;
 struct employee
 {
