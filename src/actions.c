@@ -231,7 +231,7 @@ void nonvegetarian(void)
 	}
 }
 
-void returnfunc(void)
+/*void returnfunc(void)
 {
     {
 		printf(" Press ENTER to return to main menu");
@@ -278,3 +278,4 @@ int checkid(int c)  //check whether the record is exist in list or not
 }
 
 
+*/
