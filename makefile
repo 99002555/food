@@ -28,6 +28,19 @@ $(PROJECT_NAME):all
 # Run the target even if the matching name exists
 .PHONY: run clean test  doc all
 
+CC=gcc
+CFLAGS=-I.
+DEPS = conio.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+all: main.o conio.o 
+	$(CC) -o main main.o conio.o 
+
+clean:
+	rm main main.o conio.o
+
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
